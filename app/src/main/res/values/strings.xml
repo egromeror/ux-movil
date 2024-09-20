@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Recordatorios y Alarmas UX</string>
+    <string name="app_name">Recordatorios y alarmas UX</string>
+    <string name="title">Recordatorios y alarmas</string>
+    <string name="main_text">Bienvenido a la aplicación recordatorios y alarmas, una herramienta que lo ayudará en sus actividades, tareas y obligaciones diarias brindandole recordatorios y alarmas que lo ayuden a organizar y gestionar su tiempo.</string>
+    <string name="button_sigin">Iniciar sesión</string>
+    <string name="button_guest">Iniciar como invitado</string>
 </resources>

@@ -17,7 +17,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
+        setContentView(R.layout.activity_inicio)
+        /*setContent {
             RecordatoriosYAlarmasUXTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
-        }
+        }*/
     }
 }
 
