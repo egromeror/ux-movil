@@ -1,6 +1,8 @@
 package com.example.recordatoriosyalarmasux
 
 import android.os.Bundle
+import android.widget.Button
+import android.content.Intent
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -28,6 +30,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }*/
+
+        val btnGuest: Button = findViewById(R.id.btnSignGuest)
+        btnGuest.setOnClickListener{
+            val intent = Intent(this, listado_alarmas::class.java)
+            startActivity(intent)
+            //setContentView(R.layout.activity_listado_alarmas)
+        }
     }
 }
 
