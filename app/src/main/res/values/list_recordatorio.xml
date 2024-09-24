@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recordatorio_list">
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>40 minutos</item>
+        <item>50 minutos</item>
+        <item>60 minutos</item>
+    </string-array>
+</resources>

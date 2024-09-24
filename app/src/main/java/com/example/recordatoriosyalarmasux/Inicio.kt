@@ -24,7 +24,6 @@ class Inicio : AppCompatActivity() {
         btnGuest.setOnClickListener{
             val intent = Intent(this, listado_alarmas::class.java)
             startActivity(intent)
-            //setContentView(R.layout.activity_listado_alarmas)
         }
     }
 }

@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Recordatorios y alarmas UX</string>
+    <!--Pagina de inicio-->
     <string name="title">Recordatorios y alarmas</string>
-    <string name="title2">Listado de alarmas</string>
     <string name="main_text">Bienvenido a la aplicación recordatorios y alarmas, una herramienta que lo ayudará en sus actividades, tareas y obligaciones diarias brindandole recordatorios y alarmas que lo ayuden a organizar y gestionar su tiempo.</string>
     <string name="button_sigin">Iniciar sesión</string>
     <string name="button_guest">Iniciar como invitado</string>
+
+    <!--Listado de alarmas-->
+    <string name="title2">Listado de alarmas</string>
     <string name="button_add">Crear</string>
     <string name="item1_type">Gimnasio</string>
     <string name="item1_hour">5:00 a.m.</string>
@@ -12,4 +15,13 @@
     <string name="item2_type">Laboral</string>
     <string name="item2_hour">6:30 a.m.</string>
     <string name="item2_days">Lun, mar, mie, jue, vie</string>
+
+    <!--Crear alarma-->
+    <string name="title3">Crear alarma</string>
+    <string name="lblCategoria">Categoria</string>
+    <string name="txtCategoria">Gimnasio</string>
+    <string name="lblFrecuencia">Frecuencia</string>
+    <string name="txtDefecto">Solo una vez</string>
+    <string name="lblRecordarme">Recordarme más tarde</string>
+    <string name="txtRecordarme">10 minutos</string>
 </resources>

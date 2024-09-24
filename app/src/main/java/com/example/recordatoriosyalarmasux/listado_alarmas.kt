@@ -1,6 +1,8 @@
 package com.example.recordatoriosyalarmasux
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,6 +24,13 @@ class listado_alarmas : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val btnAdd: Button = findViewById(R.id.btnAdd)
+        btnAdd.setOnClickListener{
+            val intent = Intent(this, crear_alarma::class.java)
+            startActivity(intent)
+        }
+
         setUpRecyclerView()
     }
 

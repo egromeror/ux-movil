@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frecuencia_list">
+        <item>lun</item>
+        <item>mar</item>
+        <item>mie</item>
+        <item>jue</item>
+        <item>vie</item>
+        <item>sab</item>
+        <item>dom</item>
+    </string-array>
+</resources>
