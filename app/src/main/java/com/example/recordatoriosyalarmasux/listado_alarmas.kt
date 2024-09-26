@@ -32,6 +32,12 @@ class listado_alarmas : AppCompatActivity() {
         }
 
         setUpRecyclerView()
+
+        /*val btnEditar = findViewById(R.id.rvAlarmas) as RecyclerView
+        btnEditar.setOnClickListener{
+            val intent = Intent(this, activity_editar_alarma::class.java)
+            startActivity(intent)
+        }*/
     }
 
     fun getAlarmas(): MutableList<Alarm>{
