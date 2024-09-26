@@ -32,4 +32,8 @@
     <string name="lblClave">Clave</string>
     <string name="ht_clave">Ingrese su clave de acceso</string>
     <string name="lblRecuperaClave">Recuperar mi clave</string>
+
+    <!--Pagina menu-->
+    <string name="btn_alarma">Alarmas</string>
+    <string name="btn_configura">Configuraciones</string>
 </resources>
