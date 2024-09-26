@@ -36,4 +36,13 @@
     <!--Pagina menu-->
     <string name="btn_alarma">Alarmas</string>
     <string name="btn_configura">Configuraciones</string>
+
+    <!--Editar alarma-->
+    <string name="lblFuncion">Editar alarma</string>
+    <string name="lblEditarCategoria">Categoria</string>
+    <string name="txtEditarCategoria">Gimnasio</string>
+    <string name="lblEditarFrecuencia">Frecuencia</string>
+    <string name="txtEditarDefecto">Solo una vez</string>
+    <string name="lblEditarRecordarme">Recordarme más tarde</string>
+    <string name="txtEditarRecordarme">5 minutos</string>
 </resources>
