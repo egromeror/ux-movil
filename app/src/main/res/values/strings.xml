@@ -24,4 +24,25 @@
     <string name="txtDefecto">Solo una vez</string>
     <string name="lblRecordarme">Recordarme más tarde</string>
     <string name="txtRecordarme">10 minutos</string>
+
+    <!--Pagina login-->
+    <string name="btn_login">Ingresar</string>
+    <string name="lblEmail">Email</string>
+    <string name="ht_email">Ingrese su email</string>
+    <string name="lblClave">Clave</string>
+    <string name="ht_clave">Ingrese su clave de acceso</string>
+    <string name="lblRecuperaClave">Recuperar mi clave</string>
+
+    <!--Pagina menu-->
+    <string name="btn_alarma">Alarmas</string>
+    <string name="btn_configura">Configuraciones</string>
+
+    <!--Editar alarma-->
+    <string name="lblFuncion">Editar alarma</string>
+    <string name="lblEditarCategoria">Categoria</string>
+    <string name="txtEditarCategoria">Gimnasio</string>
+    <string name="lblEditarFrecuencia">Frecuencia</string>
+    <string name="txtEditarDefecto">Solo una vez</string>
+    <string name="lblEditarRecordarme">Recordarme más tarde</string>
+    <string name="txtEditarRecordarme">5 minutos</string>
 </resources>
