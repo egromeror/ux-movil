@@ -25,5 +25,11 @@ class Inicio : AppCompatActivity() {
             val intent = Intent(this, listado_alarmas::class.java)
             startActivity(intent)
         }
+
+        val btnSesion: Button = findViewById(R.id.btnAdd)
+        btnSesion.setOnClickListener{
+            val intent = Intent(this, activity_login::class.java)
+            startActivity(intent)
+        }
     }
 }
